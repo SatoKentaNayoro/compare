@@ -1,0 +1,7 @@
+// The program input for compare/src/main.leo
+[main]
+a: u32 = 1u32;
+b: u32 = 2u32;
+c: u32 = 2u32;
+d: u32 = 2u32;
+dst: u32 = 6u32;

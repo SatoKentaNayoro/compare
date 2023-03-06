@@ -1,0 +1,10 @@
+{
+    "program": "compare.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp6cxnL158FmzqMdhyK4unUUjS4VPuR28djD4AZbooyH52",
+        "address": "aleo1avj6kdzrlphh738fu9wm0gltnm0d29zwg795zm33uthsn8krju9snayck5"
+    },
+    "license": "MIT"
+}
