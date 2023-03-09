@@ -1,9 +1,9 @@
 // The 'compare' program.
-program compare3.aleo {
+program compare5.aleo {
 
     mapping account: address => u64;
 
-    transition compare(public a: u64, public b: u64, public c: u64, public d: u64, public answer: u64, public owner: address) -> bool {
+    transition compare(a: u64, b: u64, c: u64, d: u64, answer: u64, owner: address) -> bool {
         let total: u64 = a + b + c + d;
         let ok: bool = (a + b + c + d).div(4u64).gt(answer);
         if ok {
@@ -13,7 +13,7 @@ program compare3.aleo {
         }
     }
 
-    finalize compare(public owner: address, public amount: u64) {
+    finalize compare(owner: address, amount: u64) {
         increment(account, owner, amount);
     }
 }
