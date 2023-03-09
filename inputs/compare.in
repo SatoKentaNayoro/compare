@@ -1,7 +1,6 @@
 // The program input for compare/src/main.leo
 [compare]
-public a: u64 = 1u64;
-public b: u64 = 2u64;
-public c: u64 = 2u64;
-public d: u64 = 2u64;
-public receiver: address = aleo1nrnwjp5u4lmkf98lymj6rh6u8aa3pnpjg422qhehtvnxre2fvvpq9pxyl2;
+a: u64 = 1u64;
+b: u64 = 2u64;
+c: u64 = 2u64;
+d: u64 = 2u64;
